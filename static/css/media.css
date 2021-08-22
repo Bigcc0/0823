@@ -1,0 +1,331 @@
+@media all and (min-width: 1280px){
+    #soon-content > .container > .gif {
+        width: 17%;
+        margin-left: -7%;
+    }
+    #hero::after{
+        content: '';
+        background: url(../image/banner.png);
+        background-repeat: repeat;
+        background-position: bottom;
+        background-size: auto 100%;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }
+    /* #head-chart-report > p{
+        max-width: 800px;
+    } */
+}
+@media all and (min-width: 1440px){
+    #guide{
+        padding-bottom: 300px;
+    }
+    #mission{
+        margin-top: -300px;
+    }
+    
+    
+    /* #hero::after{
+        background-repeat: repeat;
+        background-position: bottom;
+        background-size: auto;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    } */
+}
+
+
+
+
+
+@media all and (max-width: 1106px){
+    #nav > .container > div > ul > li > a{
+        font-size: 1rem;
+    }
+}
+@media all and (max-width: 1000px){
+    /* #hero-content > p{
+        padding: 0 1rem;
+    } */
+    .item-team{
+        height: 58vh;
+        max-height: 500px;
+        width: 30vw;
+        max-width: 300px;
+    }
+}
+@media all and (max-width: 994px){
+    #soon-content > .container > .gif {
+        width: 21%;
+        margin-left: -7%;
+    }
+    .guide-img{
+        max-width: 250px;
+    }
+    #mission > .container > div > div{
+        background: url('../image/bg-mission-item-small.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #nav > .container > div > ul{
+        display: none;
+    }
+    #nav > .container > div > img{
+        display: block;
+    }
+    #nav > .container > div{
+        justify-content: space-between;
+    }
+}
+@media all and (max-width: 768px){
+    /* #hero{
+        height: 850px;
+    } */
+    #service > .container,
+    #team > .container,
+    #guide > .container,
+    #mission > .container > div{
+        flex-direction: column;
+    }
+    #timeline > .container > img{
+        display: none;
+    }
+    #timeline > .container > .wrapper-item{
+        padding-left: 0;
+    }
+    #timeline > .container > .wrapper-item > .item > div:last-child{
+        padding-right: 0;
+    }
+    #team > .container > div:first-child > h2,
+    #team > .container > div:first-child > p{
+        text-align: center;
+    }
+    #team > .container > div:first-child > p,
+    #team > .container > div:first-child > .btn-wrapper,
+    #team > .container > div:first-child > .bar-wrapper,
+    #team > .container > div:last-child{
+        width: 100%;
+        max-width: 100%;
+    }
+    #team > .container > div:first-child > h2, #team > .container > div:first-child > p,
+    #team > .container > div:first-child > .bar-wrapper{
+        padding: 0 9%;
+    }
+    #team > .container > div:first-child > .btn-wrapper{
+        justify-content: center;
+    }
+    #team > .container > div:last-child{
+        margin-top: 2rem;
+    }
+    .item-team{
+        width: 45vw;
+        max-width: 400px;
+        height: 48vh;
+    }
+    #team > .container > div:first-child > .btn-wrapper > button{
+        margin: 0 1rem;
+    }
+    #guide > .container > div.left{
+        display: flex;
+        width: 100%;
+    }
+    #guide > .container > div.left > div{
+        width: 100%;
+        padding: 5rem 2rem 0 0;
+    }
+    .guide-img{
+        margin-left: 0;
+        margin-top: 0;
+        width: 230px;
+    }
+    #mission > .container > div > div{
+        padding: 2.5rem 2rem;
+    }
+    #mission{
+        margin-top: -25%;
+    }
+    .container{
+        padding: 20px;
+    }
+    #team > .container > div:first-child > .btn-wrapper > button > img{
+        width: 50px;
+        height: 50px;
+    }
+    #quote > .container{
+        padding-top: 45px;
+    }
+    #promotion > .container{
+        flex-direction: column;
+    }
+    #promotion > .container > .item:first-child{
+        border-right: 0;
+        border-bottom: 4px solid var(--darkpurple-color);
+    }
+    #promotion > .container > .item:last-child{
+        border-left: 0;
+        border-top: 4px solid var(--darkpurple-color);
+    }
+    #promotion > .container > .item{
+        padding: 8%;
+    }
+    #timeline > .container > .wrapper-item > .item{
+        width: 100%;
+    }
+    .top-quote > br{
+        display: none;
+    }
+    #promotion{
+        margin-top: -1rem;
+    }
+    #hero{
+        padding-top: 7rem;
+    }
+
+
+
+    #soon-content > .container > .gif {
+        width: 28%;
+        margin-left: -11%;
+    }
+    #footer > .container > div:first-child > img{
+        width: 16rem;
+    }
+}
+@media all and (max-width: 568px){
+    .divider-1{
+        margin-bottom: -2%;
+    }
+    #chart-report > .container > img{
+        width: 100%;
+    }
+    .item-team{
+        width: 67vw;
+    }
+    .item-team > .u-name{
+        height: 5rem;
+    }
+    .guide-img{
+        display: none;
+    }
+    #guide > .container > div.left > div{
+        padding: unset;
+    }
+    #mission > .container > div > div{
+        background: url('../image/bg-mission-item-smaller.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #mission {
+        margin-top: -32%;
+    }
+    #guide{
+        padding-bottom: 30%;
+    }
+
+
+    #soon-content > .container > .gif {
+        width: 40%;
+        margin-left: -11%;
+    }
+    #nav > .container > div{
+        display: flex;
+        /* justify-content: center; */
+    }
+    /* #nav > .container > div > img{
+        width: 16rem;
+    } */
+    #footer > .container > div:first-child > img{
+        width: 12rem;
+    }
+}
+@media all and (max-width: 480px){
+    #footer > .container{
+        flex-direction: column;
+    }
+    #footer > .container > div:last-child > a > img{
+        margin: 1rem;
+    }
+    /* #hero {
+        height: 500px;
+    }
+    #hero::after{
+        background-position: bottom;
+        background-size: 150%;
+        position: absolute;
+        width: 100%;
+        height: 90%;
+    } */
+    .top-quote{
+        font-size: 2rem;
+        line-height: 2.38rem;
+        letter-spacing: -0.1rem;
+        -webkit-text-stroke-width: 1.5px;
+    }
+    /* #hero-content > h1{
+        font-size: 3rem;
+        line-height: 3.5rem;
+        letter-spacing: -0.40rem;
+        margin-top: 2rem;
+    } */
+    #mission {
+        margin-top: -42%;
+    }
+    #guide{
+        padding-bottom: 40%;
+    }
+}
+@media all and (max-width: 356px){
+    #nav > .container > div > a > img{
+        width: 80%;   
+    }
+}
+@media all and (max-width: 320px){
+    .divider-1 {
+        margin-bottom: -2.5%;
+    }
+    /* #hero-content > h1{
+        font-size: 2rem;
+        line-height: 3rem;
+        letter-spacing: -0.20rem;
+    }
+    #hero-content > p{
+        padding: unset;
+    } */
+    .item-team{
+        width: 70vw;
+        max-height: unset;
+        height: 100vh;
+    }
+    .item-team > .u-name{
+        height: 5.2rem;
+    }
+    #mission {
+        margin-top: -52%;
+    }
+    #guide{
+        padding-bottom: 50%;
+    }
+    #mission > .container > div > div > p{
+        font-size: 10px;
+    }
+    #mission > .container > div > div > h3{
+        font-size: 12px;
+    }
+    #footer > .container > div:last-child > a > img{
+        margin-left: 0.5rem;
+    }
+    /* #hero {
+        height: 500px;
+    } */
+
+
+    #soon-content > .container > .gif{
+        width: 70%;
+        margin-left: -16%;
+    }
+}
